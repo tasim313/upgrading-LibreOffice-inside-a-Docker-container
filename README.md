@@ -27,7 +27,9 @@ Replace <container-name> with the name of your running container (e.g., dolibarr
 docker cp ~/Downloads/LibreOffice_25.2.2_Linux_x86-64_deb.tar.gz <container-name>:/tmp/
 
 🐳 Step 3: Enter the Docker Container
-docker exec -it <container-name> bash
+```bash
+   docker exec -it <container-name> bash
+```
 
 🔧 Step 4: Extract and Install LibreOffice
 Inside the container:
